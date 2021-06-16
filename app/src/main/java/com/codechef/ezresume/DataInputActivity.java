@@ -7,6 +7,7 @@ import android.os.Bundle;
 public class DataInputActivity extends AppCompatActivity
 {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
