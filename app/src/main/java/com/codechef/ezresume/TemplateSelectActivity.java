@@ -22,8 +22,6 @@ public class TemplateSelectActivity extends AppCompatActivity
         setContentView(R.layout.activity_template_select);
         viewPager = findViewById(R.id.view_pager);
         tabLayout = findViewById(R.id.tab_layout);
-
-
         pagerAdapter = new TemplateSelectPagerAdapter(this);
         viewPager.setAdapter(pagerAdapter);
         new TabLayoutMediator(tabLayout, viewPager,

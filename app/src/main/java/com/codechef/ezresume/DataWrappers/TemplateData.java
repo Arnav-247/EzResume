@@ -4,11 +4,12 @@ public class TemplateData
 {
     private String name;
     private int imageID;
-
+    private int layoutID;
     public TemplateData(String name, int imageID)
     {
         this.name = name;
         this.imageID = imageID;
+        this.layoutID = layoutID;
     }
 
     public String getName()

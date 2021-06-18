@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EZResume">
-        <activity android:name=".DataInputActivity"></activity>
+        <activity android:name=".DataInput.DataInputActivity"></activity>
         <activity android:name=".TemplateSelectActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
